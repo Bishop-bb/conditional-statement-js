@@ -1,25 +1,26 @@
-let firstname = "BLESSING";
-let lastname = "IYIOLA";
-let middlename = "OLALEKAN";
-let othername = "IFEOLUWA";
+let surname = "IYIOLA";
 
-if (firstname == "BLESSING"){
-    document.getElementById("fn").innerHTML= firstname;
-    
+if (surname == "IYIOLA"){
+    console.log("Welcome back IYIOLA!")
+    document.getElementById('rem').innerHTML= "Welcome back IYIOLA!";
 }
 
-else if(firstname == "IYIOLA"){
-    
+else if(surname == "OLALEKAN"){
+    console.log("this is your compound name")
+    document.getElementById('rem1').innerHTML= "this is your compound name";
 }
- if (middlename == "OLALEKAN"){
-    console.log(middlename);
-    document.getElementById('mn').innerHTML= middlename;
+
+else if(surname == "BLESSING"){
+    console.log("this is your firstname")
+    document.getElementById('rem2').innerHTML= "this is your firstname";
 }
-if (lastname == "IYIOLA"){
-    console.log("bbbb")
-    document.getElementById('ln').innerHTML= lastname;
+
+else if(surname == "IFEOLUWA"){
+    console.log("this is your other name")
+    document.getElementById('rem3').innerHTML= "this is your other name";
 }
-if  (othername == "IFEOLUWA"){
-    console.log('gggg')
-    document.getElementById('on').innerHTML= lastname;
+
+else{
+    window.alert("NO RECORD FOUND!")
 }
+
