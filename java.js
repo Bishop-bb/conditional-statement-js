@@ -1,4 +1,4 @@
-let surname = "IYIOLA";
+let surname = "IYIO";
 
 if (surname == "IYIOLA"){
     console.log("Welcome back IYIOLA!")
